@@ -47,8 +47,8 @@ export const chatResponses: { [key: string]: string } = {
   "event|conference|meeting|group|wedding|party":
     "Perfect for events! We have conference rooms, catering services, and flexible layouts. Contact our events team: +234 123 456 7890 or info@laregiahotel.com for group bookings.",
 
-  "security|safe|safety":
-    "Your safety is paramount. We have 24/7 CCTV, professional security staff, safes in every room, secure key card access, and 24/7 emergency response. Contact us anytime if you have concerns.",
+  "security|safe|safety|secure|how safe|is it safe":
+    "Your safety is paramount! We have 24/7 CCTV surveillance, professional security staff, in-room safes for valuables, secure key card access, gated premises, and 24/7 emergency response. Our guards are highly trained. You're in safe hands! 🔒",
 
   "business|meeting|conference|work":
     "Perfect for business! We offer high-speed Wi-Fi, dedicated work desks, business center, meeting rooms, and conference facilities. Open 24/7 with complimentary amenities for business guests.",
@@ -97,6 +97,64 @@ export const chatResponses: { [key: string]: string } = {
 
   "internet|tv|entertainment|cable|channels|movies":
     "In-room TV with cable channels and streaming apps (Netflix), complimentary high-speed Wi-Fi, game room, and weekend live entertainment. Multiple entertainment options available 24/7.",
+
+  "medical|emergency|doctor|hospital|nurse|health|sick":
+    "We're 5 minutes from Reddington Hospital (excellent facilities). We have a trained first-aid responder on-site, medical contacts, and emergency protocols. Call front desk (ext. 0) immediately for medical assistance. Emergency services: +234 123 456 7890.",
+
+  "quiet hours|noise|quiet time|sleep|disturbing|loud":
+    "Quiet hours are 10 PM - 7 AM. Guests are requested to keep noise levels low during these times. Request a room away from elevators for extra quietness. Contact front desk if there's disturbance.",
+
+  "room temperature|ac|air conditioning|cold|hot|heating|fan":
+    "All rooms have individual AC units you can control 24/7. Temperature range: 16°C - 28°C. If AC has issues, call front desk and we'll fix it within 30 minutes. Extra fans available upon request.",
+
+  "coffee|tea|hot water|kettle|mini bar|fridge|welcome drink":
+    "Complimentary tea/coffee in every room with electric kettles. Mini-fridges stocked with beverages. Welcome drink upon arrival (non-alcoholic). In-room bar menu available with room service.",
+
+  "long stay|weekly|monthly|extended stay|corporate rate":
+    "Special rates for stays 7+ nights! 1 week: 8% discount | 2 weeks: 12% | 1 month: 15%. Corporate packages available for businesses. Call +234 123 456 7890 for quotes.",
+
+  "room difference|deluxe vs executive|standard vs deluxe|comparison":
+    "Standard: Basic luxury, Queen bed. Deluxe: Larger, city view, Premium toiletries. Executive: Suite with lounge area, city view, premium amenities, priority service. All include breakfast & Wi-Fi.",
+
+  "front desk|reception|hours|available|service":
+    "Front desk is staffed 24/7, 365 days a year! Available anytime for bookings, requests, emergencies, directions, recommendations. Main line: +234 123 456 7890 or press '0' from your room.",
+
+  "taxi|transport|getting around|uber|travel|bus|car":
+    "Uber/Bolt pick-up available outside. We arrange taxis at competitive rates. Ask front desk for recommendations to Lagos attractions. We can pre-book transport for you.",
+
+  "documents|safe|valuables|important items|safe box|security deposit":
+    "Complimentary in-room safes in all rooms for documents, jewelry, electronics. Large safe-deposit boxes available at front desk (no charge). Ultra-secure storage for valuables.",
+
+  "room view|window|overlook|view|scenery":
+    "Standard: City views. Deluxe: Higher floor with scenic Lagos views. Executive: Premium city/airport views. Request specific view when booking. Room upgrade available based on availability.",
+
+  "upgrade|room upgrade|better room|suite upgrade":
+    "Upgrades subject to availability at no extra charge (based on check-in status). Paid upgrades also available. Contact front desk upon arrival for availability and options.",
+
+  "blackout|power|electricity|generator|power cut|backup":
+    "Lagos has occasional power cuts. We have 100% backup generators covering all rooms and facilities. Zero downtime - you won't even notice power cuts! Uninterrupted AC, lights, and Wi-Fi.",
+
+  "water|hot water|shower|bathroom":
+    "24/7 hot water supply guaranteed! We have multiple water tanks and solar heating systems. Modern rainfall showers and premium toiletries in all rooms. Call front desk for any water issues.",
+
+  "breakfast time|breakfast hours|what's for breakfast|breakfast menu":
+    "Breakfast served 6:30 AM - 10:00 AM daily in our restaurant. Full spread: Fresh fruits, cereals, breads, eggs, meat options, juice, coffee. Special diets accommodated with 24-hour notice!",
+
+  "checkout late|extend stay|extra night|last minute booking":
+    "Late checkout available: Until 2 PM (₦10,000 fee) or ₦25,000 for full extra day. Last-minute bookings subject to availability. Call +234 123 456 7890 ASAP for requests.",
+
+  "mosquito|insect|pest|bed bugs|cleanliness":
+    "We maintain strict hygiene standards with daily cleaning, pest control, and inspections. All rooms professionally treated weekly. Report any issues immediately - we'll move you at no charge.",
+
+  "how to book|booking process|reserve|make reservation|online booking":
+    "Easy! Click 'Book a Room' in chat, fill details, or call +234 123 456 7890. Online: www.laregiahotel.com. Whatsapp: +234 123 456 7890. Deposit required to confirm. Instant confirmation!",
+
+  "covid|vaccination|health protocol|mask|testing|pandemic":
+    "Fully vaccinated staff, sanitization protocols, and health safety measures in place. Masks optional. Testing available upon request (fee applies). Your health is our priority!",
+
+  "noise complaint|disturbance|problem|complain":
+    "Call front desk immediately (ext. 0 from room). We respond within 5 minutes to noise issues. If unresolved, we'll move you to another room at no charge. 24/7 resolution guaranteed!",
+
 
   "hospital|doctor|medical|emergency|pharmacy":
     "For emergencies, contact front desk immediately: +234 123 456 7890. Several hospitals are nearby (5-15 min away). 24-hour pharmacy within walking distance. We have first aid staff on-site.",
