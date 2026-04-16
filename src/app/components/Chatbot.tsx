@@ -289,7 +289,7 @@ export default function Chatbot() {
               <div>
                 <p className="font-semibold text-xs">Hi! I'm Bola</p>
                 <p className="text-xs mt-0.5 leading-tight">
-                  Chat for bookings & info! 💬
+                  Chat for bookings & info!
                 </p>
               </div>
             </div>
@@ -309,7 +309,7 @@ export default function Chatbot() {
           >
             <div className="bg-[#0B1C2C] text-white p-4 flex items-center justify-between flex-shrink-0">
               <div>
-                <h3 className="font-semibold">Bola 🤖</h3>
+                <h3 className="font-semibold">Bola</h3>
                 <p className="text-xs text-gray-300">Online now</p>
               </div>
               <button
