@@ -272,6 +272,38 @@ export default function Chatbot() {
 
     setMessages((prev) => [...prev, { text: userInput, isBot: false }]);
 
+    const lowerInput = userInput.toLowerCase();
+
+    // Check for booking keywords first
+    const bookingKeywords = ["book", "booking", "reserve", "reservation", "room", "can i book", "want to book", "book a room", "book now"];
+    if (bookingKeywords.some((keyword) => lowerInput.includes(keyword))) {
+      setMessages((prev) => [
+        ...prev,
+        {
+          text: "Great choice! Let me help you book a room. Please fill in your details below.",
+          isBot: true,
+        },
+      ]);
+      setStep("booking-form");
+      setUserInput("");
+      return;
+    }
+
+    // Check for airport pickup keywords
+    const pickupKeywords = ["pickup", "airport pickup", "airport transfer", "airport shuttle", "pick me up", "schedule pickup"];
+    if (pickupKeywords.some((keyword) => lowerInput.includes(keyword))) {
+      setMessages((prev) => [
+        ...prev,
+        {
+          text: "Perfect! I'll help you schedule your airport pickup. Please provide your flight details.",
+          isBot: true,
+        },
+      ]);
+      setStep("pickup-form");
+      setUserInput("");
+      return;
+    }
+
     // Add typing indicator
     const typingMessage = { text: "⏳ Typing...", isBot: true };
     setMessages((prev) => [...prev, typingMessage]);
@@ -383,7 +415,6 @@ export default function Chatbot() {
         "I'm Bola, your La Regia Airport Hotel assistant! 👋 I'm here 24/7 to help with bookings, airport pickup, rooms, amenities, and questions. What can I help you with?",
     };
 
-    const lowerInput = userInput.toLowerCase();
     let response =
       "Thank you for your question! 😊 I'm Bola, La Regia Airport Hotel's assistant. While I might not have information about everything, I'm here to help with bookings, airport pickup, room details, and general hotel inquiries.\n\nFor other questions or specific assistance, please contact our team:\n📞 +234 123 456 7890\n📧 info@laregiahotel.com\n\nHow else can I assist you?";
 
