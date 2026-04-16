@@ -1,4 +1,7 @@
 export const chatResponses: { [key: string]: string } = {
+  "how secure|secure|safety|safe|security|is it safe|how safe|secure hotel|secure rooms":
+    "Your safety is paramount! We have 24/7 CCTV surveillance, professional security staff, in-room safes for valuables, secure key card access, gated premises, and 24/7 emergency response. Our guards are highly trained. You're in safe hands! 🔒",
+
   "room type|room option|room category":
     "We have 3 room types: Standard Room (₦85,000), Deluxe Suite (₦135,000), and Executive Suite (₦185,000). All include breakfast, Wi-Fi, and air conditioning. Would you like to book?",
 
@@ -46,9 +49,6 @@ export const chatResponses: { [key: string]: string } = {
 
   "event|conference|meeting|group|wedding|party":
     "Perfect for events! We have conference rooms, catering services, and flexible layouts. Contact our events team: +234 123 456 7890 or info@laregiahotel.com for group bookings.",
-
-  "security|safe|safety|secure|how safe|is it safe":
-    "Your safety is paramount! We have 24/7 CCTV surveillance, professional security staff, in-room safes for valuables, secure key card access, gated premises, and 24/7 emergency response. Our guards are highly trained. You're in safe hands! 🔒",
 
   "business|meeting|conference|work":
     "Perfect for business! We offer high-speed Wi-Fi, dedicated work desks, business center, meeting rooms, and conference facilities. Open 24/7 with complimentary amenities for business guests.",
