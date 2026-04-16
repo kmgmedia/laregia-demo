@@ -1,4 +1,3 @@
-
 # La Regia Airport Hotel - Bola Chatbot
 
 A beautiful hotel website with an intelligent chatbot assistant named Bola. Features a comprehensive Q&A system, real-time typing indicators, and a custom cartoon lady avatar.
@@ -27,4 +26,3 @@ Run `npm run dev` to start the development server.
 - Framer Motion (animations)
 - Lucide React (icons)
 - Shadcn/ui components
-  
